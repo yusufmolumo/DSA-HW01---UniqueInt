@@ -23,8 +23,8 @@ class UniqueInt:
                 file.write(f"{number}\n")
 
 def main():
-    input_dir = "../sample_inputs/"
-    output_dir = "../sample_results/"
+    input_dir = "../sample_input_for_students/"
+    output_dir = "../results_for_sample_inputs/"
     
     input_files = [
         "sample_01.txt", "sample_02.txt", "sample_03.txt", "sample_04.txt",
@@ -39,4 +39,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
